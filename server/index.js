@@ -1,6 +1,7 @@
 const db = require('./db');
 const express = requrie('express');
 const morgan = require('morgan');
+const volleyball = require('volleyball');
 const session = require('express-session');
 // const SequelizeStore = require('connect-session-sequelize'(session.Store))
 const PORT = process.env.PORT || 8080;
@@ -8,7 +9,7 @@ const app = express();
 
 module.exports = app;
 
-app.use(morgan);
+app.use(volleyball);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
