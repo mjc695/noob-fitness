@@ -1,6 +1,8 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { Button, Alert } from 'react-native';
+import ButtonComp from './Button';
+import Modal from './tryingStuff';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -33,6 +35,8 @@ export default class App extends React.Component {
           accessibilityLabel="Learn more about this button"
           color="#841584"
         />
+        <ButtonComp />
+        <Modal />
       </View>
     );
   }
