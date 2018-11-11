@@ -2,7 +2,9 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { Button, Alert } from 'react-native';
 import ButtonComp from './Button';
-import Modal from './tryingStuff';
+import ModalExample from './tryingStuff';
+import UpdateUserExercise from './updateUserExercise';
+import NewUserExercise from './newUserExercise';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -19,12 +21,12 @@ export default class App extends React.Component {
   onClick = event => {
     Alert.alert('You tapped the button');
     this.setState({ counter: this.state.counter + 1 });
-    console.log('working', this.state.counter);
+    // console.log('working', this.state.counter);
   };
 
   render() {
     console.log('IN THE RENDER HELLO');
-    console.log(this.state.counter);
+    // console.log(this.state.counter);
     return (
       <View style={styles.container}>
         <Text>WORK PLS</Text>
@@ -36,7 +38,9 @@ export default class App extends React.Component {
           color="#841584"
         />
         <ButtonComp />
-        <Modal />
+        <ModalExample />
+        <UpdateUserExercise />
+        <NewUserExercise />
       </View>
     );
   }

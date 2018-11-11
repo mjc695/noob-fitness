@@ -34,7 +34,7 @@ class ModalExample extends Component {
   }
 
   render() {
-    console.log(this.state.exercise, 'in render');
+    // console.log(this.state.exercise, 'in render');
     return (
       <View style={{ marginTop: 22 }}>
         <Modal
@@ -43,6 +43,7 @@ class ModalExample extends Component {
           visible={this.state.modalVisible}
           onRequestClose={() => {
             Alert.alert('Modal has been closed.');
+            this.setModalVisible(!this.state.modalVisible);
           }}
         >
           <View style={{ marginTop: 220, justifyContent: 'space-between' }}>
@@ -50,11 +51,11 @@ class ModalExample extends Component {
               style={{
                 alignItems: 'center',
               }}
-              key={this.state.id}
+              // key={this.state.id}
             >
-              <Text>{this.state.exercise.name}</Text>
-              <Text>{this.state.exercise.type}</Text>
-              <Text>{this.state.exercise.description}</Text>
+              <Text>Workout name : {this.state.exercise.name}</Text>
+              <Text>Exercise type : {this.state.exercise.type}</Text>
+              <Text>Description : {this.state.exercise.description}</Text>
 
               {/* <TouchableHighlight */}
             </View>

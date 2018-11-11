@@ -7,18 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97a303cc-2773-4364-99b6-45ef5c02df85" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/exercise.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/api/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/db/db.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/db/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/db/models/exercise.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/db/models/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/db/models/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/db/models/userExercise.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/seed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noob-fitness-server" beforeDir="false" afterPath="$PROJECT_DIR$/noob-fitness-server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tryingStuff.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,10 +36,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
