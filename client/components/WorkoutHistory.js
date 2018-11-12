@@ -43,9 +43,14 @@ export default class WorkoutHistory extends Component {
           <ScrollView>
             {Object.values(this.state.allWorkouts).map(workout => {
               // console.log('each workout', workout.id);
+              let type = '';
+              if (workout.exerciseId === 1) type = 'Deadlift';
+              else if (workout.exerciseId === 2) type = 'Squat';
+              else type = 'Bench Press';
               return (
                 <View key={workout.id} style={{ padding: 20 }}>
                   <Text>Workout Date : {workout.createdAt.slice(0, 10)}</Text>
+                  <Text>Exercise : {type}</Text>
                   <Text>Set : {workout.set} </Text>
                   <Text>Rep : {workout.rep} </Text>
                   <Text>Weight : {workout.weight} </Text>
